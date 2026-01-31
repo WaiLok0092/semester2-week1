@@ -6,6 +6,6 @@ SELECT
     FirstName,
     LastName,
     DateOfBirth
-FROM Students
+FROM student
 ORDER BY DateOfBirth DESC
 LIMIT 5;
