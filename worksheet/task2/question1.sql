@@ -7,4 +7,4 @@ SELECT
   LastName,
   EnrolmentYear AS EnrolmentYear
 FROM Student
-WHERE e.EnrolmentYear = 2022': no such column: e.EnrolmentYear
+WHERE e.EnrolmentYear = 2022': no such column: e.EnrolmentYear;
