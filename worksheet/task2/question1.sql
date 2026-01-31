@@ -2,9 +2,9 @@
 -- Expected Columns:
 -- StudentId, FirstName, LastName, EnrolmentYear
 SELECT 
-  StudentId,
-  FirstName,
-  LastName,
-  EnrolmentYear AS EnrolmentYear
-FROM Student
-WHERE e.EnrolmentYear = 2022': no such column: e.EnrolmentYear;
+    StudentId,
+    FirstName,
+    LastName,
+    EnrolmentYear
+FROM Students
+WHERE EnrolmentYear = 2022;
