@@ -5,6 +5,6 @@ SELECT
   StudentId,
   FirstName,
   LastName,
-  EnrolmentYear
-FROM student
-WHERE EnrolmentYear = 2022
+  EnrolmentYear AS EnrolmentYear
+FROM Student
+WHERE e.EnrolmentYear = 2022': no such column: e.EnrolmentYear
