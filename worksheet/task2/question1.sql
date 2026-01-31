@@ -6,5 +6,5 @@ SELECT
     FirstName,
     LastName,
     EnrolmentYear
-FROM Students
+FROM students
 WHERE EnrolmentYear = 2022;
